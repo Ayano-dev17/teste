@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-container-01{
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.img-box-conatiner-01{
+    width: 100px;
+    height: inherit;
+}
+
+
+.box-container-02{
+    margin-left: 110px;
+    margin-top: -114px;
+    width: 400px;
+}
+
+
+/*Menu-horizontal*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(63, 122, 78);
+    margin-top: 67px;
+}
+
+#menu-h ul {
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    margin-left: 70px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 233, 111);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(9, 153, 40);
+}
+
+/*Fim do menu*/
+
+
+.box-container-03{
+    width: 80%;
+    margin-top: 40px;
+    background-color: rgb(24, 233, 111);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box-container-03 >h1{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.box-container-04-item-1{
+    margin-top: 20px;
+    background-color: rgb(18, 114, 58);
+    width: 330px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #FFF;
+}
+
+.box-container-04-item-2{
+    
+    background-color: rgb(18, 114, 58);
+    width: 290px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 6px;
+    color: #FFF;
+
+}
+
+.box-container-04-item-3{
+    background-color: rgb(18, 114, 58);
+    width: 250px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #FFF;
+}
+
+.box-container-04-h2{
+    margin-left: 30px;
+   
+}
+
+.box-container-04-button{
+    border-radius: 20px;
+    padding: 10px;
+    color: #FFF;
+    background-color: rgb(24, 233, 111);
+    font-size: 10px;
+}
+
+
+
+
+
+.box-container-05 > .box-container-05-img >img{
+    width: 500px;
+    float:right;
+    margin-right: 50px;
+    
+}
+
+
+
+
+
+
+
+/* inicio de slide*/
+
+
+.box-container-06-slide-mae{
+    background-color: #006919;
+    margin-top: 400px;
+    width: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+   
+    
+   
+}
+
+
+.box-container-06-slide-mae-h2 >h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    padding: 30px;
+
+}
+
+
+
+#box-container-06-slide{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define uma altura para a div */
+   
+
+
+}
+
+
+
+
+#banner{
+    border-radius: 20px;
+}
+
+
+
+#box-container-06-slide>img{
+    display: block;
+    max-width: 100%; /* Define a largura máxima da imagem */
+    max-height: 100%; /* Define a altura máxima da imagem */
+}
+
+/*Fim slide*/
+
+
+.box-container-07-h1{
+    margin-top: 40px;
+    width: 370px;
+    padding: 10px;
+    background-color: #006919;
+    color: #53FD0A;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+
+.box-container-08-click{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+/*Deixando Responsivel*/
+
+
+
+@media (max-width: 568px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .box-container-01{
+        width: 50px;
+        height: auto;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    
+    .img-box-conatiner-01{
+        width: 60px;
+        height: inherit;
+    }
+    
+    
+    .box-container-02{
+        margin-left: 74px;
+        margin-top: -70px;
+        width: 100px;
+    }
+
+    .box-container-02>h1{
+        font-size: 14px;
+
+    }
+
+    .box-container-02>p{
+        font-size: 10px;
+
+    }
+    
+    
+    /*Menu-horizontal*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    
+    * {
+        margin: 0 ;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #menu-h{
+        background-color: rgb(63, 122, 78);
+        margin-top: 67px;
+    }
+    
+    #menu-h ul {
+        max-width: 100%;
+        list-style: none;
+        padding: 0;
+    }
+    
+    #menu-h ul li {
+        display: inline;
+    }
+    
+    #menu-h ul li a {
+        color: #FFF;
+        padding: 20px;
+        margin-left: 2px;
+        display: inline-block;
+        text-decoration: none;
+        transition: background .4s;
+        
+    }
+    
+    #menu-h ul li a:hover {
+        background-color: rgb(24, 233, 111);
+    }
+
+
+    /*Modificação para mobile*/
+    
+    #menu-h ul li:last-child a {
+        float: none; /*Aqui*/
+        background-color: rgb(9, 153, 40);
+        display: none; /*Aqui*/
+    }
+    
+    /*Fim do menu*/
+    
+    
+    .box-container-03{
+        width: 100%; /*Aqui*/
+        margin-top: 40px;
+        background-color: rgb(24, 233, 111);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .box-container-03 >h1{
+        margin-left: 10px; /*Aqui*/
+        padding: 3px; /*Aqui*/
+    }
+    
+    .box-container-04-item-1{
+        margin-top: 20px;
+        background-color: rgb(18, 114, 58);
+        width: 250px; /*Aqui*/
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: #FFF;
+        font-size: 14px; /*Aqui*/
+    }
+    
+    .box-container-04-item-2{
+        
+        background-color: rgb(18, 114, 58);
+        width: 240px; /*Aqui*/
+        border-top-right-radius: 20px;
+        font-size: 14px; /*Aqui*/
+        border-bottom-right-radius: 20px;
+        padding: 6px;
+        color: #FFF;
+    
+    }
+    
+    .box-container-04-item-3{
+        background-color: rgb(18, 114, 58);
+        width: 230px; /*Aqui*/
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: #FFF;
+    }
+    
+    .box-container-04-h2{
+        margin-left: 20px; /*Aqui*/
+       
+    }
+    
+    .box-container-04-button{
+        border-radius: 20px;
+        padding: 10px;
+        color: #FFF;
+        background-color: rgb(24, 233, 111);
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    
+    .box-container-05 > .box-container-05-img >img{
+        width: 300px; /*Aqui*/
+        float: none; /*Aqui*/
+        margin-right: 30px; /*Aqui*/
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* inicio de slide*/
+    
+    
+    .box-container-06-slide-mae{
+        background-color: #006919;
+        margin-top: 20px; /*Aqui*/
+        width: auto;
+        margin-bottom: 40px;
+        border-radius: 20px;
+       
+        
+       
+    }
+    
+    
+    .box-container-06-slide-mae-h2 >h2{
+        text-align: center;
+        color: #FFF;
+        font-size: 20px; /*Aqui*/
+        padding: 20px; /*Aqui*/
+    
+    }
+    
+    
+    
+    #box-container-06-slide{
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        height: auto; /* Define uma altura para a div */
+       
+    
+    
+    }
+
+   
+
+
+    #banner{
+        border-radius: 20px;
+    }
+
+
+    
+    #box-container-06-slide>img{
+        display: block;
+        max-width: 100%; /* Define a largura máxima da imagem */
+        max-height: 100%; /* Define a altura máxima da imagem */
+    }
+    
+    /*Fim slide*/
+    
+    
+    .box-container-07-h1{
+        margin-top: 40px;
+        width: auto; /*aqui*/
+        padding: 10px; 
+        font-size: 14px;  /*aqui*/
+        background-color: #006919;
+        color: #53FD0A;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+    
+    }
+    
+    
+    
+    
+    .box-container-08-click>img{
+        margin-left: -56px;
+        margin-top: 0px; /*aqui*/
+        width: 280px;
+    }
+    
+    .box-container-08-click>a >img{
+        margin-left: 0px; /*aqui*/
+        margin-top: 0px;  /*aqui*/
+        width: auto; /*aqui*/
+    }
+    
+    
+    
+
+
+
+}
+
