@@ -39,12 +39,14 @@
 #menu-h{
     background-color: rgb(63, 122, 78);
     margin-top: 67px;
+   
 }
 
 #menu-h ul {
     max-width: 100%;
     list-style: none;
     padding: 0;
+    
 }
 
 #menu-h ul li {
@@ -64,9 +66,18 @@
     background-color: rgb(24, 233, 111);
 }
 
+
 #menu-h ul li:last-child a {
     float: right;
     background-color: rgb(9, 153, 40);
+}
+
+
+.login{
+    float: right; 
+    margin-right: 50px;
+    background-color: rgb(9, 153, 40);
+
 }
 
 /*Fim do menu*/
@@ -146,15 +157,20 @@
 /* inicio de slide*/
 
 
+.espaco{
+    margin-top: 400px;
+}
+
+
 .box-container-06-slide-mae{
     background-color: #006919;
-    margin-top: 400px;
-    width: auto;
+    width: 100%;
     margin-bottom: 40px;
     border-radius: 20px;
+    margin: 0 auto;
    
     
-   
+
 }
 
 
@@ -169,12 +185,15 @@
 
 
 #box-container-06-slide{
-    max-width: 95%;
+    width: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Define uma altura para a div */
+    height: auto;
+    padding: 30px;
+
+     /* Define uma altura para a div */
    
 
 
@@ -185,6 +204,8 @@
 
 #banner{
     border-radius: 20px;
+    width: 1200px;
+    height: 490px;
 }
 
 
@@ -294,8 +315,8 @@
     
     #menu-h ul li a {
         color: #FFF;
-        padding: 20px;
-        margin-left: 2px;
+        padding: 15px;
+        margin-left: 1px;
         display: inline-block;
         text-decoration: none;
         transition: background .4s;
@@ -392,6 +413,12 @@
     
     
     /* inicio de slide*/
+
+    
+.espaco{
+    margin-top: 0px;
+}
+
     
     
     .box-container-06-slide-mae{
@@ -434,6 +461,8 @@
 
     #banner{
         border-radius: 20px;
+        width: 400px;
+        height: auto;
     }
 
 
